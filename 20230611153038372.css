@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap');
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #00ff6a;
+    color: #FFFFFF;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #00df30;
+  }
+  
+  .custom-button:active {
+    background-color: #0e771c;
+  }
+  
+  .custom-button:focus {
+    outline: none;
+  }
+  
+  .custom-button-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .custom-button-link:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .custom-button-link:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  .custom-button{
+        display: flex;
+        align-items: center;
+        font-family: 'Oswald', sans-serif;
+  }
+  .reklamamogoutub{
+    align-items: center;
+    font-family: '', sans-serif;
+    display: inline-block;
+    padding: 11px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #ff0000;
+    color: #FFFFFF;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  .pidcherk{
+    font-size: 11px;
+    font-family: 'Ubuntu';
+  }
