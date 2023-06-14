@@ -1,0 +1,16 @@
+.u-section-1 {background-image: linear-gradient(to right, #8e2de2, #4a00e0)}
+.u-section-1 .u-sheet-1 {min-height: 100vh}
+.u-section-1 .u-text-1 {font-weight: 700; width: 782px; margin: 20px 179px 0}
+.u-section-1 .u-image-1 {width: 115px; height: 115px; margin: 95px 343px 0 auto}
+.u-section-1 .u-image-2 {width: 446px; height: 250px; box-shadow: 0 2px 8px 0 rgba(128,128,128,1); animation-duration: 1500ms; margin: -182px auto 60px 34px} 
+
+@media (max-width: 1199px){ .u-section-1 .u-text-1 {margin-left: 79px; margin-right: 79px} }
+
+@media (max-width: 991px){ .u-section-1 .u-text-1 {margin-left: 0; margin-right: 0; width: 720px} }
+
+@media (max-width: 767px){ .u-section-1 .u-text-1 {width: 540px} }
+
+@media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 701px}
+.u-section-1 .u-text-1 {width: 340px; margin-top: -239px}
+.u-section-1 .u-image-1 {margin-top: 29px; margin-right: 225px}
+.u-section-1 .u-image-2 {width: 340px; height: 191px; margin-top: -143px; margin-left: 0} }
