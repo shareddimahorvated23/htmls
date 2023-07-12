@@ -1,0 +1,110 @@
+.site-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.site-site {
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 193, 255, 1);
+}
+.site-skin1 {
+  top: 298px;
+  left: 1390px;
+  width: 334px;
+  height: 517px;
+  position: absolute;
+}
+.site-link {
+  display: contents;
+}
+.site-grab-skin {
+  gap: 10px;
+  top: 441px;
+  left: 289px;
+  width: 606px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.site-text {
+  top: 63px;
+  left: 140px;
+  color: rgba(0, 0, 0, 1);
+  width: 300px;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  font-size: 43px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.site-rectangle1 {
+  width: 586px;
+  height: 195px;
+}
+.site-framegivecommandtogethisherhead113 {
+  gap: 10px;
+  top: 857px;
+  left: 45px;
+  width: 884px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  box-shadow: -43px 26px 57px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.site-rectangle2 {
+  width: 864px;
+  height: 184px;
+}
+.site-text2 {
+  top: 38px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: hooge 05_54;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.site-text4 {
+  top: 87px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  width: 790px;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  font-size: 26px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Happy Monkey;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
