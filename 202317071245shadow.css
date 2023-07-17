@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&display=swap');
+
+.shadow__btn {
+    padding: 36px 67px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Lunasima', sans-serif;
+    position: fixed;
+    top: 380px;
+    left: 8%;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
