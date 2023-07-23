@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap');
+.wikipedialogohref{width: 140px; border-radius: 9px; border: solid 2px; border-color: #ffffff;}
+.witext{left: 156px; position: absolute; bottom: 850px; font-size: 25px; text-decoration: none; color: #ffffff; font-family: 'Roboto', sans-serif;}
+.witext:hover{color: #ff0f0f;}
+body{background-color: #000000;}
+.text1{
+    font-family: 'Open Sans', sans-serif;
+     color: rgb(255, 255, 255); 
+    position: absolute;
+    top: 400px;
+    font-size: 23px;
+    left: 670px;
+    }
+.downloadpdf{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 22px 22px 22px;
+    background-color: #00f335;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    border-radius: 4px;
+    bottom: 60px;
+    left: 62px;
+}
+.downloadpdf:hover{background-color: rgb(0, 218, 65);}
+.downloadpdf:active{background-color: #008b1e;}
+.wikipedialogohref:active{border-color: #005de9;}
