@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Text</title>
+    <style>
+        body{background-color: black; color: white;}
+        
+        .white-mode {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        }
+
+        .white-mode-butt{
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            padding: 5px 20px;
+        }
+
+        .secret-text{
+            cursor: pointer;
+            padding: 20px 40px;
+            font-size: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+    <script>
+        // Не лізь сюда!!!
+        function alertMode() {
+            alert("На моєму каналі є секретне відео його можна найти в описі.");
+        }
+
+        function whiteMode() {
+        var element = document.body;
+        element.classList.toggle("white-mode");
+        var newText = "Dark Mode";
+        document.getElementById("whiteModeTxt").textContent = newText;
+        }
+    </script>
+</head>
+<body>
+    <button class="secret-text" onclick="alertMode()">Secret Text</button>
+    <button class="white-mode-butt" onclick="whiteMode()"><p id="whiteModeTxt">White Mode</p></button>
+</body>
+</html>
+<!--Не лізь сюда кажу!!!!!!-->
