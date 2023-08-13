@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(102, 102, 102);
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.img{
+    cursor: zoom-out;
+}

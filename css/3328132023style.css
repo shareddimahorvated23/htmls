@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(102, 102, 102);
+}
+
+.download-txt{
+    font-size: 3cqb;
+    position: absolute;
+}
+
+.img{
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    width: 30rem;
+    cursor: zoom-in;
+}
